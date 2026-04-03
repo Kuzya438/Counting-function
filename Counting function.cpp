@@ -3,7 +3,7 @@
 
 void counting_function() {
 	static int quantity{};
-	std::cout << "Êîëè÷åñòâî âûçîâîâ ôóíêöèè counting_function(): " << ++quantity << std::endl;
+	std::cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð²Ñ‹Ð·Ð¾Ð²Ð¾Ð² Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ counting_function(): " << ++quantity << std::endl;
 }
 
 int main() {
